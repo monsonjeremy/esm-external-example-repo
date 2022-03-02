@@ -12,8 +12,6 @@
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "test": "jest --no-cache --runInBand --passWithNoTests",
-    "test:coverage": "jest --coverage --no-cache --runInBand",
     "package": "npm run build && npm pack"
   },
   "publishConfig": {

@@ -1,0 +1,43 @@
+{
+  "name": "esm-external-example",
+  "version": "0.0.1",
+  "files": [
+    "pages",
+    "public",
+    "styles",
+    ".eslintrc.json",
+    "LICENSE",
+    "next.config.js",
+    "next-env.d.ts",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "shx rm -rf .next",
+    "dev": "next dev",
+    "build": "yarn clean && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.4",
+    "@solana/wallet-adapter-react": "^0.15.3",
+    "@solana/wallet-adapter-react-ui": "^0.9.5",
+    "@monsonjeremy/esm-external-package": "0.0.1",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.17",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.7",
+    "shx": "^0.3.3",
+    "typescript": "~4.5.5"
+  }
+}
